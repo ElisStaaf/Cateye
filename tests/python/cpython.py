@@ -2,7 +2,7 @@ import sys
 sys.path.insert(1, "../../python/")
 import cateye
 
-cateye("""
+cateye.cateye("""
 #include <stdio.h>
 
 int main() {

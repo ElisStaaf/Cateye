@@ -3,7 +3,7 @@ if [ $# -gt 0 ]; then
         "--clang"|"-c")
             sudo cp \
                 clang/cateye.h \
-                /usr/bin/cateye.h
+                /usr/include/cateye.h
             ;;
         "--python"|"-py")
             sudo cp \
